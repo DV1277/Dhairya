@@ -1,0 +1,20 @@
+img {
+  border-radius: 90%;
+}
+hr {
+  background-color: #F1FCFC;
+  width: 97%;
+  border-style: dotted none none none;
+  border-width: 3px
+}
+body {
+  background-color: #E1F4F3
+}
+h1 {
+  text-shadow: 2px 2px white;
+   color: #66BFBF
+}
+h3 {
+  text-shadow: 2px 2px white;
+   color: #66BFBF
+}

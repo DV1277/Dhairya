@@ -1,21 +1,128 @@
-img {
-  border-radius: 90%;
-}
-hr {
-  background-color: #5dc0a6;
-  color: #0f053a;
-  width: 97%;
-  border-style: dotted none none none;
-  border-width: 3px
-}
 body {
-  background-color: #5dc0a6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #37403e;
 }
+
 h1 {
-   text-shadow: 1.5px 1px #f9fcfb;
-   color: #0f4c75
+  margin: 35px auto 0 auto;
+  font-family: 'Parisienne', cursive;
+  font-size: 90px;
+  color: #2eb59c;
 }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #2eb59c;
+  padding-bottom: 10px;
+}
+
 h3 {
-  text-shadow: 1px 1px #f9fcfb;
-   color: #0f4c75
+  font-family: 'Merriweather', sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #EAF9F5;
+  position: relative;
+  padding: 100px;
+}
+
+.middle-container {
+  padding: 50px 0 30px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px 0 20px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 450px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.dv-img{
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+.sub-heading{
+  font-size: 2.5rem;
+  font-weight: normal;
+  position: relative;
+  bottom: 15px;
+  color: #2eb59c;
+}
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.skill-row{
+  width: 50%;
+  margin-right: 20px;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2
+}
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.soccer-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+hr{
+  border-style: dotted none none none;
+  width: 6%;
+  color: #EAF9F5;
+  border-width: 7px;
+  margin: 75px auto;
+}
+.contact-details{
+  clear: left;
+}
+.contact-img:hover{
+  background-color: #EAF6F6;
+}
+.contact-img{
+  height: 50px;
+  float: right;
+  width: 50px;
+  position: absolute;
+  right: 525px;
+}
+.contact-img:hover{
+  background-color: #EAF6F6;
+}
+.footer-link{
+  word-spacing: 50px;
+}
+.copyright{
+  color: #EAF9F5;
+  font-size: 0.85rem;
+}
+.intro{
+  width: 40%;
+  margin: auto;
+}
+p{
+  line-height: 2;
 }
